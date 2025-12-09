@@ -11,7 +11,7 @@
 6. 팀원 및 역할
 
 ## 🚩개요
-- 진행 기간 : 2024.10.14 ~ 2024.11.19 (6주)
+- 진행 기간 : 2024.10.14 ~ 2024.11.22 (6주)
 - 서비스명 : PushOfLife
 - 서비스 소개 : 갤럭시 워치를 활용한 응급 상황 **자동 감지** 및 **신속 구조** 지원
 
@@ -165,43 +165,3 @@ CPR 지원을 시작할 수 있다.
 </table>
 
 </div>
-
----
-## 설치
-
-[포팅매뉴얼](https://lab.ssafy.com/ssafy-coach-12th/11th_pushoflife/-/blob/master/exec/Porting%20manual.md?ref_type=heads)을 참고해주세요.
-
-## 서비스 이용 정보
-
-_자세한 설명서는 다음을 참조하십시오. [Wiki](https://lab.ssafy.com/ssafy-coach-12th/11th_pushoflife/-/wikis/home)_.
-
-
-## 추가정보
-
-- 12기 실습코치 구고운 – @rhdns208
-- 12기 실습코치 최봉준 – @kkbonv
-
-## 기여
-
-1. 해당 프로젝트를 Fork 하세요. (https://lab.ssafy.com/ssafy-coach-12th/11th_pushoflife/-/forks/new)
-    * **Project URL**은 개인 Gitlab ID로 설정해주세요!
-    * **Project slug**는 변경하지 않습니다.
-2.  새로운 브랜치를 생성하세요.
-    *   이때 브랜치는 `dev`브랜치에서 분기해주세요.
-    *   브랜치 네이밍은 `기수_팀코드_학번`으로 설정합니다.    
-    *   ```
-        git checkout -b dev  
-        git pull origin dev  
-        git checkout -b 12th_D101_1011111
-
-3.  변경사항을 commit 하세요 (`git commit -am 'Add some fooBar'`)
-4.  브랜치에 Push 하세요 (`git push origin 12th_D101_1011111`)
-5.  새로운 Merge Request를 요청하세요
-    *   Source branch: `개인ID/프로젝트`에서 새로 생성한 브랜치(`12th_D101_1011111`)
-    *   Target branch: `ssafy_opensource/프로젝트` 의 `dev` 브랜치
-    *   Description에 수정된 파일의 위치와 변경 사항, 의견 등을 작성해 등록합니다.
-
-
-## 라이선스
-Distributed under the SGPL license. See [License](LICENSE) for more information.
-
